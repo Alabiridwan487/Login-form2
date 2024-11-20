@@ -1,0 +1,102 @@
+@import url(fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+body{
+    background: #9b59b6;
+    overflow: hidden;
+}
+
+.container{
+max-width: 440px;
+padding: 0 20px;
+margin: 170px auto;
+}
+.wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.wrapper .title{
+line-height: 90px;
+background: #8e44ad;
+text-align: center;
+border-radius: 5px 5px 0 0;
+font-size: 25px;
+color: #fff;
+font-weight: 600;
+}
+.wrapper form{
+    padding: 25px 25px 25px 25px;
+}
+
+.wrapper form .row{
+height: 45px;
+background: #ffffff;
+margin-bottom: 15px;
+position: relative;
+}
+.wrapper form .row input{
+height: 100%;
+width: 100%;
+outline: none;
+padding-left: 60px;
+border-radius: 5px;
+border: 1px solid lightgray;
+font-size: 16px;
+transition: all 0.3s ease;
+}
+
+form .row input :focus{
+    border-color: #8e44ad;
+    box-shadow: inset 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    background: #8e44ad;
+    border: 1px solid #8e44ad;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.wrapper form .signup-link a{
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+.wrapper form .signup-link a:hover{
+text-decoration: underline;
+}
+
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+.wrapper form .button input{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0;
+    background: #8e44ad;
+    border: 1px solid #8e44ad;
+    cursor: pointer;
+    
+}
+
+form .button input:hover{
+    background: #8e44ad;
+
+}
